@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 260" width="620" height="260" role="img" aria-label="愛川町少年広場のイメージイラスト">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a8d8ff"/>
+      <stop offset="100%" stop-color="#dff6ff"/>
+    </linearGradient>
+    <linearGradient id="grass3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9be36b"/>
+      <stop offset="100%" stop-color="#4f9a2b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect width="620" height="260" fill="url(#sky3)"/>
+
+  <!-- mountains (Tanzawa-like) -->
+  <polygon points="0,170 120,90 240,170" fill="#7e9b7a" stroke="#3a5b3a" stroke-width="2"/>
+  <polygon points="100,170 220,80 360,170" fill="#a3bf9c" stroke="#3a5b3a" stroke-width="2"/>
+  <polygon points="280,170 420,100 560,170" fill="#7e9b7a" stroke="#3a5b3a" stroke-width="2"/>
+  <polygon points="450,170 540,110 620,170" fill="#a3bf9c" stroke="#3a5b3a" stroke-width="2"/>
+
+  <!-- snow caps -->
+  <polygon points="220,80 200,105 240,105" fill="#ffffff"/>
+  <polygon points="420,100 405,120 435,120" fill="#ffffff"/>
+
+  <!-- sun -->
+  <circle cx="540" cy="55" r="28" fill="#fff5a0" stroke="#ffb84d" stroke-width="2"/>
+  <circle cx="540" cy="55" r="20" fill="#ffd700"/>
+  <circle cx="533" cy="50" r="3" fill="#000"/>
+  <circle cx="547" cy="50" r="3" fill="#000"/>
+  <path d="M531 60 q9 7 18 0" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.95">
+    <ellipse cx="80" cy="50" rx="34" ry="11"/>
+    <ellipse cx="105" cy="42" rx="22" ry="9"/>
+    <ellipse cx="350" cy="60" rx="40" ry="12"/>
+    <ellipse cx="380" cy="50" rx="26" ry="10"/>
+  </g>
+
+  <!-- ground -->
+  <rect x="0" y="170" width="620" height="90" fill="url(#grass3)"/>
+
+  <!-- path -->
+  <path d="M260 260 L300 200 L340 200 L380 260 Z" fill="#d9b88a" stroke="#7a4f1f" stroke-width="1.5"/>
+  <line x1="280" y1="230" x2="360" y2="230" stroke="#fff" stroke-width="2" stroke-dasharray="6,6" opacity="0.7"/>
+
+  <!-- tree left -->
+  <g>
+    <rect x="60" y="170" width="14" height="50" fill="#5b3a1f"/>
+    <circle cx="67" cy="160" r="34" fill="#3a8b2a" stroke="#1d5e15" stroke-width="2"/>
+    <circle cx="50" cy="155" r="18" fill="#4ea53a"/>
+    <circle cx="84" cy="158" r="18" fill="#4ea53a"/>
+  </g>
+
+  <!-- tree right -->
+  <g>
+    <rect x="540" y="180" width="14" height="50" fill="#5b3a1f"/>
+    <circle cx="547" cy="170" r="32" fill="#3a8b2a" stroke="#1d5e15" stroke-width="2"/>
+    <circle cx="528" cy="166" r="16" fill="#4ea53a"/>
+    <circle cx="566" cy="168" r="16" fill="#4ea53a"/>
+  </g>
+
+  <!-- tent on grass -->
+  <g>
+    <polygon points="160,200 240,200 200,148" fill="#e63946" stroke="#7a0e1c" stroke-width="2"/>
+    <polygon points="190,200 210,200 200,170" fill="#2a1a0a"/>
+    <line x1="160" y1="200" x2="148" y2="210" stroke="#7a0e1c" stroke-width="1.5"/>
+    <line x1="240" y1="200" x2="252" y2="210" stroke="#7a0e1c" stroke-width="1.5"/>
+  </g>
+
+  <!-- bench -->
+  <g>
+    <rect x="430" y="205" width="70" height="6" fill="#a87242" stroke="#5b3a1f" stroke-width="1.5"/>
+    <rect x="432" y="211" width="4" height="14" fill="#5b3a1f"/>
+    <rect x="494" y="211" width="4" height="14" fill="#5b3a1f"/>
+    <rect x="430" y="195" width="70" height="4" fill="#a87242" stroke="#5b3a1f" stroke-width="1.5"/>
+  </g>
+
+  <!-- bird -->
+  <g stroke="#000" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M260 80 q5 -6 10 0 q5 -6 10 0"/>
+    <path d="M310 100 q5 -6 10 0 q5 -6 10 0"/>
+  </g>
+
+  <!-- sparkles -->
+  <g font-family="serif" font-weight="bold">
+    <text x="100" y="120" font-size="18" fill="#ff1493">☆</text>
+    <text x="450" y="100" font-size="18" fill="#ff1493">★</text>
+  </g>
+</svg>

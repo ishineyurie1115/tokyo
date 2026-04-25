@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 260" width="620" height="260" role="img" aria-label="テントサウナのイラスト">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe5f1"/>
+      <stop offset="100%" stop-color="#fff7c2"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9be36b"/>
+      <stop offset="100%" stop-color="#5fa83a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect width="620" height="260" fill="url(#sky)"/>
+
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="180" cy="50" rx="30" ry="10"/>
+    <ellipse cx="200" cy="45" rx="22" ry="9"/>
+    <ellipse cx="500" cy="60" rx="34" ry="11"/>
+    <ellipse cx="525" cy="55" rx="22" ry="9"/>
+  </g>
+
+  <!-- sun -->
+  <g>
+    <circle cx="90" cy="65" r="34" fill="#ffd700" stroke="#ff8c00" stroke-width="3"/>
+    <g stroke="#ff8c00" stroke-width="3" stroke-linecap="round">
+      <line x1="90" y1="15" x2="90" y2="2"/>
+      <line x1="90" y1="115" x2="90" y2="128"/>
+      <line x1="40" y1="65" x2="27" y2="65"/>
+      <line x1="140" y1="65" x2="153" y2="65"/>
+      <line x1="55" y1="30" x2="46" y2="21"/>
+      <line x1="125" y1="30" x2="134" y2="21"/>
+      <line x1="55" y1="100" x2="46" y2="109"/>
+      <line x1="125" y1="100" x2="134" y2="109"/>
+    </g>
+    <!-- smile -->
+    <circle cx="80" cy="60" r="3" fill="#000"/>
+    <circle cx="100" cy="60" r="3" fill="#000"/>
+    <path d="M78 75 Q90 84 102 75" stroke="#000" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="73" cy="73" rx="4" ry="3" fill="#ffb6c1"/>
+    <ellipse cx="107" cy="73" rx="4" ry="3" fill="#ffb6c1"/>
+  </g>
+
+  <!-- distant trees -->
+  <g>
+    <circle cx="240" cy="180" r="22" fill="#3a8b2a"/>
+    <rect x="237" y="180" width="6" height="14" fill="#5a3210"/>
+    <circle cx="555" cy="178" r="26" fill="#3a8b2a"/>
+    <rect x="552" y="180" width="6" height="16" fill="#5a3210"/>
+  </g>
+
+  <!-- ground -->
+  <rect x="0" y="190" width="620" height="70" fill="url(#grass)"/>
+
+  <!-- grass tufts -->
+  <g stroke="#3a8b2a" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M40 220 q4 -10 8 0"/>
+    <path d="M120 230 q4 -10 8 0"/>
+    <path d="M450 225 q4 -10 8 0"/>
+    <path d="M580 230 q4 -10 8 0"/>
+  </g>
+
+  <!-- steam from chimney -->
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="370" cy="40" rx="14" ry="9"/>
+    <ellipse cx="390" cy="30" rx="12" ry="8"/>
+    <ellipse cx="410" cy="40" rx="16" ry="9"/>
+    <ellipse cx="395" cy="55" rx="20" ry="10"/>
+  </g>
+
+  <!-- tent body (red triangle) -->
+  <polygon points="260,205 410,205 335,75" fill="#e63946" stroke="#7a0e1c" stroke-width="3"/>
+  <!-- side panel shading -->
+  <polygon points="335,75 410,205 380,205" fill="#b51e2c" opacity="0.6"/>
+
+  <!-- door -->
+  <polygon points="320,205 350,205 335,140" fill="#2a1a0a"/>
+  <line x1="335" y1="140" x2="335" y2="205" stroke="#ffd700" stroke-width="2"/>
+
+  <!-- chimney -->
+  <rect x="378" y="80" width="14" height="34" fill="#444" stroke="#222" stroke-width="2"/>
+  <rect x="375" y="78" width="20" height="6" fill="#666" stroke="#222" stroke-width="2"/>
+
+  <!-- pegs / lines -->
+  <g stroke="#7a0e1c" stroke-width="1.5">
+    <line x1="260" y1="205" x2="240" y2="220"/>
+    <line x1="410" y1="205" x2="430" y2="220"/>
+  </g>
+
+  <!-- flag -->
+  <line x1="335" y1="75" x2="335" y2="55" stroke="#7a0e1c" stroke-width="2"/>
+  <polygon points="335,55 360,62 335,69" fill="#ffd700" stroke="#7a0e1c" stroke-width="1.5"/>
+
+  <!-- water bucket next to tent -->
+  <g>
+    <ellipse cx="450" cy="210" rx="22" ry="6" fill="#5b3a1f"/>
+    <path d="M428 210 L432 230 L468 230 L472 210 Z" fill="#a87242" stroke="#5b3a1f" stroke-width="2"/>
+    <ellipse cx="450" cy="212" rx="20" ry="5" fill="#7ec8e3"/>
+    <path d="M430 213 q20 5 40 0" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- sparkles -->
+  <g fill="#ff1493">
+    <text x="220" y="100" font-family="serif" font-size="20" font-weight="bold">★</text>
+    <text x="475" y="120" font-family="serif" font-size="16" font-weight="bold">☆</text>
+    <text x="180" y="140" font-family="serif" font-size="14" font-weight="bold">✦</text>
+  </g>
+</svg>
