@@ -38,7 +38,10 @@ GitHub Pagesで公開し、Visual Studio CodeのLive Serverでローカル確認
   - index.html と相互リンク
 
 # 画像
-- Web 上のフリー素材を直リンクで利用
-  - picsum.photos: 風景写真の差し込み（seed指定で固定）
-  - placehold.co: 装飾バナー（派手色＋テキスト）
+- 自動取得: `scripts/fetch-images.sh` が loremflickr (Flickr CC画像) からキーワードで自動DLし `assets/images/` に保存する
+  - 実行: `bash scripts/fetch-images.sh`（依存は curl のみ・Node.js不要）
+  - キーワード/サイズ/seedはスクリプト内で定義。差し替えはスクリプト編集→再実行
+  - `?lock=N` で同じキーワード+seedの結果を固定
+- 自作SVG: `assets/images/*.svg` (tent-sauna / totonou / park) はセクションごとのカット用
+- 装飾用の retro 88x31 バナー (フッター) は placehold.co の直リンクをそのまま使用（意図的な平成感の演出）
 - 後で差し替え可能な前提で alt 属性を付与

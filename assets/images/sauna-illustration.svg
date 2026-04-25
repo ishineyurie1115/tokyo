@@ -1,0 +1,72 @@
+<svg width="820" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fde7d6"/>
+      <stop offset="100%" stop-color="#e7cba4"/>
+    </linearGradient>
+    <linearGradient id="tent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff7f7f"/>
+      <stop offset="100%" stop-color="#c33"/>
+    </linearGradient>
+  </defs>
+  <rect width="820" height="400" fill="url(#bg)"/>
+  
+  <!-- Tent -->
+  <polygon points="190,310 410,160 630,310" fill="url(#tent)" stroke="#8b3d28" stroke-width="4"/>
+  <path d="M190,310 L410,160 L630,310" fill="none" stroke="#5b2d1a" stroke-width="3"/>
+  <path d="M410,160 L410,320" stroke="#5b2d1a" stroke-width="4"/>
+  
+  <!-- Bench inside -->
+  <rect x="310" y="315" width="200" height="20" fill="#7d4a2e" rx="6"/>
+  <rect x="318" y="300" width="184" height="14" fill="#b86b40" rx="4"/>
+  
+  <!-- People inside -->
+  <g stroke="#000" stroke-width="2" fill="none" stroke-linecap="round">
+    <circle cx="360" cy="280" r="14" fill="#ffdbac"/>
+    <path d="M360 294 Q360 307 353 320"/>
+    <path d="M360 294 Q360 307 367 320"/>
+    <path d="M346 302 Q350 284 354 302"/>
+    <circle cx="354" cy="274" r="2" fill="#000"/>
+    <circle cx="366" cy="274" r="2" fill="#000"/>
+    <path d="M362 282 Q360 288 356 286" fill="none"/>
+    <path d="M360 302 Q345 280 340 303"/>
+  </g>
+  <g stroke="#000" stroke-width="2" fill="none" stroke-linecap="round">
+    <circle cx="460" cy="280" r="14" fill="#ffdbac"/>
+    <path d="M460 294 Q460 307 453 320"/>
+    <path d="M460 294 Q460 307 467 320"/>
+    <path d="M446 302 Q450 284 454 302"/>
+    <circle cx="454" cy="274" r="2" fill="#000"/>
+    <circle cx="466" cy="274" r="2" fill="#000"/>
+    <path d="M462 282 Q460 288 456 286" fill="none"/>
+    <path d="M460 302 Q445 280 440 303"/>
+  </g>
+  
+  <!-- Sweat drops -->
+  <circle cx="348" cy="268" r="3" fill="#76c8ff"/>
+  <circle cx="368" cy="266" r="3" fill="#76c8ff"/>
+  <circle cx="448" cy="266" r="3" fill="#76c8ff"/>
+  <circle cx="468" cy="268" r="3" fill="#76c8ff"/>
+  
+  <!-- Steam -->
+  <path d="M310 170 C320 140 340 130 350 160" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.6"/>
+  <path d="M380 160 C395 140 420 130 435 160" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.6"/>
+  <path d="M445 170 C455 140 480 130 490 160" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.6"/>
+  
+  <!-- Sauna interior details -->
+  <path d="M320 325 C360 305 460 305 520 325" stroke="#5b2d1a" stroke-width="3" fill="none"/>
+  <line x1="415" y1="200" x2="415" y2="315" stroke="#5b2d1a" stroke-width="4"/>
+  
+  <!-- Outside accessories -->
+  <rect x="630" y="280" width="90" height="60" rx="14" fill="#7a4f27" stroke="#5b2d1a" stroke-width="3"/>
+  <ellipse cx="675" cy="280" rx="34" ry="12" fill="#b4e1ff"/>
+  <path d="M648 287 C658 295 692 295 702 287" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.8"/>
+  <rect x="180" y="290" width="110" height="70" rx="12" fill="#fff3b0" stroke="#d9b24b" stroke-width="3"/>
+  <path d="M185 310 C210 300 235 300 255 310" stroke="#d9b24b" stroke-width="3" fill="none"/>
+  
+  <!-- Hand-drawn border details -->
+  <path d="M200 310 Q250 285 300 310" stroke="#5b2d1a" stroke-width="2" fill="none"/>
+  <path d="M620 310 Q570 285 520 310" stroke="#5b2d1a" stroke-width="2" fill="none"/>
+</svg></content>
+<parameter name="filePath">/Users/ishineyurie/Documents/VScode_test/tokyo/assets/images/sauna-illustration.svg
