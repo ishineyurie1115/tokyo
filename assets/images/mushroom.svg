@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360" width="400" height="360" role="img" aria-label="キノコのイラスト">
+  <defs>
+    <radialGradient id="capGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ff6b6b"/>
+      <stop offset="60%" stop-color="#e60026"/>
+      <stop offset="100%" stop-color="#990014"/>
+    </radialGradient>
+    <linearGradient id="stemGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fffdf2"/>
+      <stop offset="100%" stop-color="#e8dcb5"/>
+    </linearGradient>
+    <linearGradient id="grassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7ed957"/>
+      <stop offset="100%" stop-color="#3fa34d"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="200" cy="335" rx="170" ry="14" fill="rgba(0,0,0,0.18)"/>
+
+  <path d="M70 200 Q70 70 200 60 Q330 70 330 200 Q330 215 315 220 L85 220 Q70 215 70 200 Z"
+        fill="url(#capGrad)" stroke="#660010" stroke-width="4"/>
+
+  <circle cx="135" cy="135" r="22" fill="#ffffff" stroke="#d8d8d8" stroke-width="2"/>
+  <circle cx="200" cy="105" r="28" fill="#ffffff" stroke="#d8d8d8" stroke-width="2"/>
+  <circle cx="265" cy="140" r="20" fill="#ffffff" stroke="#d8d8d8" stroke-width="2"/>
+  <circle cx="110" cy="190" r="14" fill="#ffffff" stroke="#d8d8d8" stroke-width="2"/>
+  <circle cx="290" cy="190" r="16" fill="#ffffff" stroke="#d8d8d8" stroke-width="2"/>
+  <circle cx="170" cy="180" r="10" fill="#ffffff" stroke="#d8d8d8" stroke-width="2"/>
+  <circle cx="230" cy="175" r="12" fill="#ffffff" stroke="#d8d8d8" stroke-width="2"/>
+
+  <path d="M150 220 Q140 290 160 320 L240 320 Q260 290 250 220 Z"
+        fill="url(#stemGrad)" stroke="#7a6d3b" stroke-width="3"/>
+
+  <ellipse cx="180" cy="265" rx="10" ry="14" fill="#f0e6c2" opacity="0.8"/>
+  <ellipse cx="215" cy="285" rx="8" ry="12" fill="#f0e6c2" opacity="0.8"/>
+
+  <circle cx="175" cy="155" r="6" fill="#000000"/>
+  <circle cx="173" cy="153" r="2" fill="#ffffff"/>
+  <circle cx="225" cy="155" r="6" fill="#000000"/>
+  <circle cx="223" cy="153" r="2" fill="#ffffff"/>
+  <path d="M180 178 Q200 195 220 178" fill="none" stroke="#660010" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="160" cy="172" r="6" fill="#ff9eb1" opacity="0.7"/>
+  <circle cx="240" cy="172" r="6" fill="#ff9eb1" opacity="0.7"/>
+
+  <path d="M0 330 Q40 320 80 330 Q120 320 160 330 Q200 320 240 330 Q280 320 320 330 Q360 320 400 330 L400 360 L0 360 Z"
+        fill="url(#grassGrad)"/>
+  <path d="M50 328 L48 312 M52 328 L56 314 M54 328 L52 318" stroke="#2e7d3a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M340 328 L338 312 M344 328 L348 314 M346 328 L344 318" stroke="#2e7d3a" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

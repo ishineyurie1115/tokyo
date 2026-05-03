@@ -252,3 +252,15 @@ footer img.banner {
   border: 3px outset #ff8c00;
   font-size: 18px;
 }
+
+/* ----- フッターのキノコ ----- */
+.mushroom-bottom {
+  display: block;
+  width: 90%;
+  max-width: 560px;
+  height: auto;
+  margin: 30px auto 10px;
+  border: 6px ridge #ffd700;
+  background: #fffbe6;
+  box-shadow: 6px 6px 0 #ff1493, 12px 12px 0 #00bfff;
+}
